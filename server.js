@@ -1,6 +1,6 @@
 const express = require('express')
 const cors = require('cors'); // to access withou problms
-const data = require('./client/City-Explorer/src/data.json');
+const data = require('./client/src/data.json');
 const app = express()
  app.use(cors());
 app.get('/', function (req, res) {
